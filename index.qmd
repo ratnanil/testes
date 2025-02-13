@@ -1,0 +1,43 @@
+---
+format: 
+  typst: 
+    margin:
+      x: 10cm
+      y: 10cm
+papersize: a1
+editor: visual
+fontsize: 75pt
+---
+
+```{=typst} 
+#set page(
+  "a1",
+  flipped: true,
+)
+
+#show heading: it => { pagebreak(weak: true); it }
+
+```
+
+
+# Forschungsfrage 1a
+
+*Wo und wann ereignen sich Vogelschläge, wie viele und mit welchen Vogelarten? *
+
+
+:::{.callout-note}
+
+## Output
+
+wow
+
+:::
+
+
+# Forschungsfrage 1b
+
+```{=typst} 
+grid.hline() -> content
+``` 
+
+# Forschungsfrage 1c
